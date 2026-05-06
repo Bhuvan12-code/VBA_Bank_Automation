@@ -1,0 +1,24 @@
+Database----->SQLite
+
+Table-1 : accounts
+    fields(coloumns)
+        acno interger primary key autoincrement
+        name text 
+        passward text
+        adhar text
+        pan text
+        email text 
+        mobile text
+        bal float
+        adr text
+        dob text
+        opendate text
+
+table-2 : txn_history 
+    acno interger FK
+    amt float 
+    type text
+    upbal float
+    txndate text
+    txnid interger autoincrement
+
